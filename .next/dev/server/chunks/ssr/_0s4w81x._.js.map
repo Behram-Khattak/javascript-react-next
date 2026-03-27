@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Applications/Behram/Projects/javascript/learning/react/javascript-react-next/app/components/LikeButton.jsx"],"sourcesContent":["\"use client\";\nimport { useState } from \"react\";\n\nexport default function LikeButton() {\n  // react use state hook\n  const [likes, setLikes] = useState(0);\n\n  function handleClick() {\n    setLikes(likes + 1);\n  }\n\n  return (\n    <button type=\"button\" onClick={handleClick}>\n      Likes {likes}\n    </button>\n  );\n}\n"],"names":["LikeButton","likes","setLikes","handleClick","type","onClick"],"mappings":";;;;;AACA;AADA;;;AAGe,SAASA;IACtB,uBAAuB;IACvB,MAAM,CAACC,OAAOC,SAAS,GAAG,IAAA,iNAAQ,EAAC;IAEnC,SAASC;QACPD,SAASD,QAAQ;IACnB;IAEA,qBACE,8OAAC;QAAOG,MAAK;QAASC,SAASF;;YAAa;YACnCF;;;;;;;AAGb"}},
+    {"offset": {"line": 36, "column": 0}, "map": {"version":3,"sources":["file:///Applications/Behram/Projects/javascript/learning/react/javascript-react-next/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-ssr']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}

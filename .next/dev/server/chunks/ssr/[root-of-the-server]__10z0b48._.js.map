@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Applications/Behram/Projects/javascript/learning/react/javascript-react-next/app/layout.js"],"sourcesContent":["import { title } from \"process\";\n\nexport const metadata = {\n    title\n}"],"names":["metadata","title"],"mappings":";;;;AAAA;;AAEO,MAAMA,WAAW;IACpBC,OAAAA,gHAAK;AACT"}}]
+}
